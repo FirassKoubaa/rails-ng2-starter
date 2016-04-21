@@ -23,3 +23,9 @@ configuration change in `config/application.rb` and add:
 ```
     config.assets.paths << Rails.root.join('node_modules')
 ```
+
+Fairly standard but also, worth looking at are the
+
+* Typescript configuration: `tsconfig.json`
+* NPM project configuration: `package.json`
+
